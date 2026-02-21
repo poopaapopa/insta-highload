@@ -38,3 +38,5 @@ Instagram - глобальная социальная сеть для обмен
 ### Список источников
 1.  **[Semrush (Overview)](https://www.semrush.com/website/instagram.com/overview/)** - Устройства, визиты и страны.
 2.  **[Statista](https://www.statista.com/topics/1882/instagram/#statisticChapter)** - Демография и посещаемость (MAU).
+
+## 2. **Расчёт нагрузки**
