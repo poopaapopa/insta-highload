@@ -40,3 +40,9 @@ Instagram - глобальная социальная сеть для обмен
 2.  **[Statista](https://www.statista.com/topics/1882/instagram/#statisticChapter)** - Демография и посещаемость (MAU).
 
 ## 2. **Расчёт нагрузки**
+
+* **MAU (Monthly Active Users):** **2 000 000 000 (2 млрд.)** -  Для рассчёта среднего размера хранилища пользователя я взял данные за 2021 год. Сейчас данные по количеству пользователей изменились, но я решил основываться на более точно известной информации - *Источник:* [Statista / Demand Sage](https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/)
+
+* **Stories DAU (Daily Active Users):** **500 000 000 (500 млн.)** - Данные по публикации историй в день. Также старые, но можно предположить, что остаются стабильными из-за большей воволечённости новых пользователей в последующие годы в формат **Reels** - *Источник:* [Statista: Instagram Stories Usage](https://www.statista.com/statistics/730315/instagram-stories-daily-active-users/)
+
+* 
