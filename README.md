@@ -41,8 +41,14 @@ Instagram - глобальная социальная сеть для обмен
 
 ## 2. **Расчёт нагрузки**
 
-* **MAU (Monthly Active Users):** **2 000 000 000 (2 млрд.)** -  Для рассчёта среднего размера хранилища пользователя я взял данные за 2021 год. Сейчас данные по количеству пользователей изменились, но я решил основываться на более точно известной информации - *Источник:* [Statista / Demand Sage](https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/)
+Так как Meta не публикует технические отчеты о точной емкости своих дата-центров и детальном распределении типов файлов, я опираюсь на исторические данные, инженерные стандарты сжатия и маркетинговые исследования. За основу взяты данные за 2021 год. Сейчас данные изменились, но я решил основываться на более точной информации и избажать рассмотрения, тогда ещё никому неизвестных, **Reels**
 
-* **Stories DAU (Daily Active Users):** **500 000 000 (500 млн.)** - Данные по публикации историй в день. Также старые, но можно предположить, что остаются стабильными из-за большей воволечённости новых пользователей в последующие годы в формат **Reels** - *Источник:* [Statista: Instagram Stories Usage](https://www.statista.com/statistics/730315/instagram-stories-daily-active-users/)
+* MAU (Monthly Active Users): **2 000 000 000 (2 млрд.)** - *Источник:* [Statista / Demand Sage](https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/)
+
+* Stories daily active users: **500 000 000 (500 млн.)** - *Источник:* [Statista: Instagram Stories Usage](https://www.statista.com/statistics/730315/instagram-stories-daily-active-users/)
+
+* "**95 million** photos and videos are shared on Instagram every day" - *Источник:* [WordStream: 31 Mind-Boggling Instagram Stats & Facts for 2026](https://www.wordstream.com/blog/ws/2017/04/20/instagram-statistics)
+
+* "**500 million** accounts use Instagram Stories every day" - *Источник:* [WordStream: 31 Mind-Boggling Instagram Stats & Facts for 2026](https://www.wordstream.com/blog/ws/2017/04/20/instagram-statistics)
 
 * 
