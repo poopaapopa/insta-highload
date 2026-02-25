@@ -41,34 +41,38 @@ Instagram - глобальная социальная сеть для обмен
 
 ## 2. **Расчёт нагрузки**
 
-Так как Meta не публикует технические отчеты о точной емкости своих дата-центров и детальном распределении типов файлов, я опираюсь на исторические данные, инженерные стандарты сжатия и маркетинговые исследования. За основу взяты данные за 2021 год. Сейчас данные изменились, но я решил основываться на более точной информации и избежать рассмотрения, тогда ещё никому неизвестных, **Reels**
+Так как Meta не публикует технические отчеты о точной емкости своих дата-центров и детальном распределении типов файлов, я опираюсь на исторические данные, инженерные стандарты сжатия и маркетинговые исследования. За основу взяты данные за 2019-2021 годы. Сейчас данные изменились, но я решил основываться на более точной информации и избежать рассмотрения, тогда ещё никому неизвестных, **Reels**
 
-* MAU (Monthly Active Users): **2 000 000 000 (2 млрд.)** - *Источник:* [Statista / Demand Sage](https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/)
+* MAU (Monthly Active Users): **2 000 000 000 (2 млрд.)** - [*Источник:*](https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/)
 
-* Stories daily active users: **500 000 000 (500 млн.)** - *Источник:* [Statista: Instagram Stories Usage](https://www.statista.com/statistics/730315/instagram-stories-daily-active-users/)
+* Stories daily active users: **500 000 000 (500 млн.)** - [*Источник:*](https://www.statista.com/statistics/730315/instagram-stories-daily-active-users/)
 
-* "**95 million** photos and videos are shared on Instagram every day" - *Источник:* [WordStream: 31 Mind-Boggling Instagram Stats & Facts for 2026](https://www.wordstream.com/blog/ws/2017/04/20/instagram-statistics)
+* "**95 million** photos and videos are shared on Instagram every day" - [*Источник:*](https://www.wordstream.com/blog/ws/2017/04/20/instagram-statistics)
 
-* "**500 million** accounts use Instagram Stories every day" - *Источник:* [WordStream: 31 Mind-Boggling Instagram Stats & Facts for 2026](https://www.wordstream.com/blog/ws/2017/04/20/instagram-statistics)
+* "**500 million** accounts use Instagram Stories every day" - [*Источник:*](https://www.wordstream.com/blog/ws/2017/04/20/instagram-statistics)
 
-* "**40 billion** photos and videos have been shared on the Instagram platform since its conception" - *Источник:* [WordStream: 31 Mind-Boggling Instagram Stats & Facts for 2026](https://www.wordstream.com/blog/ws/2017/04/20/instagram-statistics)
+* "**40 billion** photos and videos have been shared on the Instagram platform since its conception" - [*Источник:*](https://www.wordstream.com/blog/ws/2017/04/20/instagram-statistics)
 
-* "The least active 25% of brands publish just **over 1 Story** per week." - Я использовал эти цифры по 25% наименее часто постящим истории брендам как в среднем по историям активных пользователей - *Источник:* [Rival IQ 2023 Instagram Stories Benchmark Report](https://www.rivaliq.com/blog/instagram-stories-benchmark-report/)
+* "The least active 25% of brands publish just **over 1 Story** per week." - Я использовал эти цифры по 25% наименее часто постящим истории брендам как в среднем по историям активных пользователей - [*Источник:*](https://www.rivaliq.com/blog/instagram-stories-benchmark-report/)
 
 <img width="350" height="197" alt="image" src="https://github.com/user-attachments/assets/a9b7f81a-16b0-4a4d-9a29-ec82f66d39da" />
 
-* "В августе 2016 года Instagram запустил Instagram Stories" - **5 лет** существуют на момент 2021-ого года истории в Instagram - *Источник:* [Wikipedia: Instagram](https://ru.wikipedia.org/wiki/Instagram)
+* "В августе 2016 года Instagram запустил Instagram Stories" - **5 лет** существуют на момент 2021-ого года истории в Instagram - [*Источник:*](https://ru.wikipedia.org/wiki/Instagram)
 
 * Возьмём средний вес картинки разрешения 1920×1080 в широко используемом для хранения формате wemp как **0.35 МБ**
 
-* Для Stories Возьмём средний вес видео разрешения 1920×1080 30 FPS в формате webm максимальной в Instagram длины 15 секунд как **5,35 МБ** - *Рассчитано в* [Storebits.com: Video bitrate calculator](https://storedbits.com/video-bitrate-calculator/)
+* Для Stories Возьмём средний вес видео разрешения 1920×1080 30 FPS в формате webm максимальной в Instagram длины 15 секунд как **5,35 МБ** - [*Рассчитано в*](https://storedbits.com/video-bitrate-calculator/)
+
+* Соотношение контента в постах - [*Источник*](https://www.quintly.com/blog/instagram-study-2019)
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/1df8a75a-3794-4fd7-bfc1-725ac388a5d2" />
 
 ### Средний размер хранилища на пользователя
 
 | Объект | Средний размер на пользователя | Логика расчета и формулы |
 | :--- | :--- | :--- |
 | **Stories** | **282.15 Мбайт** | **(500 млн Stories DAU / 2000 млн MAU) × 6.6 сторис/месяц × 12 месяцев × 5 лет × 2.85 Мбайт**<br>1. *Активность:* 500 млн активных из 2 млрд = 0.25 (каждый 4-й).<br>2. *Частота:* Активный автор создает ~6.6 сторис в месяц.<br>3. *Вес:* Среднее между видео-сторис (5.35 МБ) и фото (0.35 МБ) = **2.85 МБ**.<br>4. *Итого:* 99 сторис × 2.85 МБ. |
-| **Посты (Feed)** | **44.0 Мбайт** | **(40 млрд постов / 2 млрд юзеров) = 20 постов**<br>1. *Микс контента:* 90% фото (18 шт) и 10% видео (2 шт).<br>2. *Фото:* 18 шт × **0.5 Мбайт** (1080p WebP + превью) = 9 Мбайт.<br>3. *Видео:* 2 шт × **17.5 Мбайт** (45 сек, 3.5 Mbps H.264) = 35 Мбайт.<br>4. *Итого:* 9 + 35 = 44 Мбайт. |
+| **Посты (Feed)** | **44.0 Мбайт** | **(40 млрд постов / 2 млрд юзеров) = 20 постов**<br>1. *Сотношение:* 90% фото (18 шт) и 10% видео (2 шт).<br>2. *Фото:* 18 шт × **0.5 Мбайт** (1080p WebP + превью) = 9 Мбайт.<br>3. *Видео:* 2 шт × **17.5 Мбайт** (45 сек, 3.5 Mbps H.264) = 35 Мбайт.<br>4. *Итого:* 9 + 35 = 44 Мбайт. |
 | **Сообщения (Direct)** | **25.0 Мбайт** | **50 медиа-сообщений (Кэш) × 0.5 Мбайт**<br>Текстовые сообщения (JSON) весят байты. Основной вес — это "горячий кэш" пересланных картинок (сжатых), голосовых сообщений (AAC, ~100КБ/мин) и временных файлов. |
 | **Профиль** | **1.5 Мбайт** | **Аватар + Био + Обложки**<br>1. *Аватар:* 3 версии (1080px, 320px, 150px) ≈ **1 Мбайт**.<br>2. *Highlights:* 5 обложек × 100 Кбайт = **0.5 Мбайт**.<br>3. *Био:* Текст (UTF-8) ≈ 0.5 Кбайт (пренебрежимо мало). |
 | **Лайки (Входящие)** | **9.6 Кбайт** | **20 постов × 20 лайков/пост × 24 Байта**<br>1. *Количество:* 400 входящих лайков на аккаунт (ER ~2%).<br>2. *Структура:* `User_ID` (8b) + `Post_ID` (8b) + `Timestamp` (8b) = 24 байта на запись в графовой БД. |
