@@ -731,7 +731,7 @@ Proxygen выделяется своей архитектурой: обрабо�
 | L4/L7 | Xeon Gold (16c), 2x 100GbE NIC | 225 | $7 500 | **$1 687 500** |
 | Cassandra | EPYC 7282 (16c), 256GB, 4x 7.6TB NVMe | 2 500 | $14 000 | **$35 000 000** |
 | PostgreSQL | 2x EPYC (32c), 512GB, 4x 7.6TB NVMe | 250 | $16 000 | **$4 000 000** |
-| Redis / Elastic | Xeon 4210R (10c), 512GB RAM, 1x NVMe | Redis / Elastic | 60 | $11 000 | **$660 000** |
+| Redis / Elastic | Xeon 4210R (10c), 512GB RAM, 1x NVMe | 60 | $11 000 | **$660 000** |
 | S3 | Xeon Silver, 128GB RAM, 36x 18TB HDD  | 2 515 | $16 500 | **$41 497 500** |
 | **ИТОГО** | | *(Для 1 дата-центра)* | **5 565** | **$83 115 000** |
 
