@@ -667,8 +667,7 @@ Proxygen выделяется своей архитектурой: обрабо�
 
 ## 10. **Схема проекта**
 
-<img width="2021" height="951" alt="highload drawio" src="https://github.com/user-attachments/assets/15dfe014-07cd-492f-8db0-55cb609c5039" />
-
+<img width="2431" height="1011" alt="highload drawio" src="https://github.com/user-attachments/assets/c26fdfb1-1467-41d8-8514-3c2c58cad566" />
 
 ## 11. Расчёт ресурсов
 
