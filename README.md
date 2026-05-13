@@ -1,4 +1,4 @@
-# **Instagram**
+<img width="2463" height="1011" alt="Диаграмма без названия drawio (3)" src="https://github.com/user-attachments/assets/072d0495-97b9-4e0e-8012-fcfb72a9797f" /># **Instagram**
 Instagram - глобальная социальная сеть для обмена фотографиями и видео.
 
 ## 1. **Тема и целевая аудитория**
@@ -667,7 +667,7 @@ Proxygen выделяется своей архитектурой: обрабо�
 
 ## 10. **Схема проекта**
 
-<img width="2431" height="1011" alt="highload drawio" src="https://github.com/user-attachments/assets/c26fdfb1-1467-41d8-8514-3c2c58cad566" />
+<img width="2463" height="1011" alt="highload drawio" src="https://github.com/user-attachments/assets/ac490dfd-7cc0-4919-a521-c9148dc1d6b7" />
 
 ## 11. Расчёт ресурсов
 
