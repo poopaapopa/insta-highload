@@ -1,4 +1,3 @@
-<img width="2463" height="1011" alt="Диаграмма без названия drawio (3)" src="https://github.com/user-attachments/assets/072d0495-97b9-4e0e-8012-fcfb72a9797f" /># **Instagram**
 Instagram - глобальная социальная сеть для обмена фотографиями и видео.
 
 ## 1. **Тема и целевая аудитория**
